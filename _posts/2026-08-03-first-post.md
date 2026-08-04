@@ -3,8 +3,8 @@ layout: post
 title: Markdown Syntax
 date: 2026-08-03 12:52
 description: Markdown is the preferred format for agents to read text files.
-tags: markdown
-categories: technical
+tags: technical
+categories: technology
 ---
 Markdown is the preferred format for agents and humans to read text files. This page  details how to the write a markdown file. 
 
