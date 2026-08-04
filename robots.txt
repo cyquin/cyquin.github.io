@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cyquin.github.io/al-folio/sitemap.xml
+Sitemap: https://cyquin.github.io/sitemap.xml
