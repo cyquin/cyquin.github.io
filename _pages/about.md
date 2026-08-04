@@ -24,4 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-This is a site where I publish my thoughts on topics. I am a private person so I don't really publish much about myself.
+I am a consultant that works in the Data and AI transformation in UK financial services. These pages detail resources for defining operating models and agentic frameworks to deliver business transformation. 
+
+The pages will post a series of the articles that outline how methods for defining operating models and how these change with the introduction of modern data and AI technologies. 
