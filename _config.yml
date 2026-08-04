@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: My Website # the website title (if blank, full name will be used instead)
-first_name: Martin
+title: Agentic Operating Models & Data Transformation # the website title (if blank, full name will be used instead)
+first_name: >
 middle_name: >
 last_name: >
 contact_note: >
@@ -132,8 +132,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: My thoughts # blog_name will be displayed in your blog page
-blog_description: My thoughts
+blog_name: Articles # blog_name will be displayed in your blog page
+blog_description: Thoughts on agentic operating models and data transformation.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

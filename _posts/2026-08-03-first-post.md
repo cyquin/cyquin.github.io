@@ -1,13 +1,12 @@
 ---
 layout: post
-title: This is my first post
+title: Markdown Syntax
 date: 2026-08-03 12:52
-description: My First Post
+description: Markdown is the preferred format for agents to read text files.
 tags: markdown
 categories: technical
 ---
-# Markdown Notes
-This page will be used to provide a short guide on markdown files which have the extension .md or .markdown. 
+Markdown is the preferred format for agents and humans to read text files. This page  details how to the write a markdown file. 
 
 ## What is Markdown?
 Markdown is a lightweight mark up language that you can use ot add formatting elements to plaintext documents. It was created in 2004. 
@@ -17,8 +16,6 @@ The approach is not to be a WYSIWYG editor. Instead the text is marked up with s
 When markdown files are read they are processed or parsed, to take the markdown text and output it as HTML. At this point the text can be viewed in a web browser or combined with a stylesheet. 
 
 ## How does Markdown Processing Work
-![image](/img/markdown_process.webp)
-
 This is effectively a four part process: 
 
 1. Create a Markdown file using a text editor or a dedicated markdown application. The file has a ```.md``` or ```.markdown``` extension. 
