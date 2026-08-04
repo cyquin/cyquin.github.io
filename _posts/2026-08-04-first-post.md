@@ -3,8 +3,8 @@ layout: post
 title: This is my first post
 date: 2026-08-04 12:52
 description: My First Post
-tags: post
-categories: post
+tags: markdown
+categories: technical
 ---
 
 # Markdown Notes
