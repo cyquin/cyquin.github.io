@@ -77,7 +77,7 @@ Only then roll out deliberately. Invest heavily in helping people understand the
 
 The mindset here matters: you're not designing a final state that never changes. You're designing a system that can learn and evolve. Expect to refine continuously.
 
-## The Operating Model as Your AI Strategy
+## The Operating Model As Your AI Strategy
 
 Here's what separates organizations that will successfully harness AI from those that will be disrupted by it: they're not treating AI as a technology implementation problem. They're treating it as an operating model redesign problem.
 
