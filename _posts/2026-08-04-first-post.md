@@ -6,7 +6,6 @@ description: My First Post
 tags: markdown
 categories: technical
 ---
-
 # Markdown Notes
 This page will be used to provide a short guide on markdown files which have the extension .md or .markdown. 
 
