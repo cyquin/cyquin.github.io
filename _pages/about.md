@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: A holding page
+subtitle: >
 
 profile:
   align: right
@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a private person so I simply don't really publish much about myself. This is simply a web page of my thoughts.
+This is a site where I publish my thoughts on topics. I am a private person so I don't really publish much about myself.
