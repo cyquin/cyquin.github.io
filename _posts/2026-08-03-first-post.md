@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is my first post
-date: 2026-08-04 12:52
+date: 2026-08-03 12:52
 description: My First Post
 tags: markdown
 categories: technical
