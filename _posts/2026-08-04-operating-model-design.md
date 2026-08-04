@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What Makes and Operating Model Work
+title: What Makes An Operating Model Work
 date: 2026-08-04 09:00
 description: Learn the fundamental principles of building a scalable and efficient operating model that aligns strategy, structure, and execution.
 tags: technical
