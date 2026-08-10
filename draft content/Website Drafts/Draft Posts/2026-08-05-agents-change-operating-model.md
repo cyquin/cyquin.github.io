@@ -314,6 +314,36 @@ timeline
 
 6. **Plan the feedback-to-adjustment cycle**: When you spot a pattern (staff re-routes all "integration" tickets), who investigates? Who proposes a parameter change? Who tests it? Who approves deployment? Make this process clear before your first feedback arrives.
 
+## Best Practices for Continuously Monitored Agents
+
+**Real-time monitoring dashboards**: Show agent decision rate, accuracy, escalation rate, and outcome distribution. Not a luxury—foundational. When any metric deviates from baseline, alert automatically.
+
+**Decision-level logging**: Every decision captured with timestamp, parameters applied, data used, reasoning, confidence score, and outcome. Query capability: "Show me all decisions for customer X" or "Show me all low-confidence approvals from yesterday." This isn't audit theater—it's how you investigate problems.
+
+**Daily pattern analysis**: Automated daily summaries of staff overrides. "Staff re-routed 12 billing tickets to engineering yesterday. Pattern: technical setup questions mis-categorized." Escalate patterns (5+ same type) to parameter owner for same-day investigation.
+
+**Confidence scoring on every decision**: Agents should provide not just a decision but a confidence level. Low-confidence decisions (below your threshold) escalate automatically. Monitor confidence distribution—if confidence stays artificially high, the agent may be overconfident in novel situations.
+
+**Outcome tracking**: Link agent decisions to real-world results. Did the approved loan default? Was the routed ticket resolved in SLA? Did the recommended action improve customer satisfaction? Agents trained on historical data can degrade when real-world conditions change. Outcome tracking detects this drift.
+
+**Data quality monitoring**: Parallel to agent monitoring. Track completeness, freshness, and accuracy of data the agent depends on. If data quality drops, agent performance will follow—but you'll know why. Alert when required fields are missing in >1% of records or when data age exceeds threshold.
+
+**Parameter change process**: Every change documented, tested, approved, and deployed with monitoring. No ad-hoc updates. Version control ties each deployed agent version to specific parameters and results. Rollback available if performance degrades.
+
+**Incident response playbook**: When something goes wrong (accuracy drops 10 points, escalation rate spikes 30%), what's the process? Who's notified? How quickly must someone investigate? Can the agent be paused? How do you identify affected decisions? Write this down before the first incident, not during.
+
+**Weekly governance review**: Parameter owners, data owners, and monitoring leads meet to review: Did any alerts fire? Were patterns identified and acted on? Is the agent performing within goals? What's next? This prevents drift from accumulating silently.
+
+**Escalation path clarity**: Every escalation decision includes context: agent's reasoning, alternative routes considered, confidence score, relevant data. Staff never receives an escalated case blind. They understand why the agent couldn't handle it.
+
+**Staff feedback loop automation**: When staff overrides an agent, capture it in structured form: what did staff do differently? Why? This feeds directly into daily analysis. If the same override pattern appears 5 times, system suggests parameter adjustment to the owner.
+
+**Staged deployments**: New versions deploy to 5% of traffic first, monitored for 24 hours. If performance matches baseline, increase to 25%. This catches definition errors on a small scale before scale.
+
+**Data quality validation gates**: Before parameter changes deploy, validate the data the agent will operate on meets quality standards. If freshness or completeness drop below threshold, halt deployment until data is fixed.
+
+Best practices share a theme: **automation with human authority**. Systems detect patterns and flag anomalies automatically. Humans make decisions about what to do. Speed comes from having alerts, dashboards, and queries ready before you need them—not from cutting out human oversight.
+
 ## Key Points
 
 **Agents are different.** They make systematic errors at scale, not contextual ones. A 1% error rate on 20,000 decisions daily is 200 wrong decisions.
